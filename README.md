@@ -2,6 +2,8 @@
 优雅的java加解密工具类-支持RSA，AES，MD5，Base64，Hex，ROT
 
 一.RSA TestCase
+
+
 public class TestRSAAlgorithm {
 
     public static void main(String[] args) {
@@ -52,6 +54,8 @@ public class TestRSAAlgorithm {
 
 二.AES Testcase
 
+
+
 public class TestAESAlgorithm {
 
     public static void main(String[] args) throws Exception {
@@ -85,6 +89,8 @@ public class TestAESAlgorithm {
 }
 
 三.base64 Testcase
+
+
 public class Base64AlgorithmTest {
     public static void main(String[] args) throws Exception {
         String content = "next action is tomorrow AM:8";
@@ -95,4 +101,7 @@ public class Base64AlgorithmTest {
         System.out.println("解密后：" + decode);
     }
 }
+
+
+
 
