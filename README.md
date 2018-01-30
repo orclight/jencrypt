@@ -91,6 +91,7 @@ public class TestAESAlgorithm {
 三.base64 Testcase
 
 public class Base64AlgorithmTest {
+
     public static void main(String[] args) throws Exception {
         String content = "next action is tomorrow AM:8";
         String encode = Base64Algorithm.encode(content);
@@ -99,6 +100,7 @@ public class Base64AlgorithmTest {
         System.out.println("加密后："+encode);
         System.out.println("解密后：" + decode);
     }
+    
 }
 
 
